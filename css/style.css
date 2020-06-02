@@ -1,0 +1,324 @@
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Nunito Sans','Roboto','Open Sans', sans-serif,
+}
+ul{
+	list-style-type: none;
+	text-decoration: none;
+}
+li{
+	list-style-type: none;
+	text-decoration: none;
+}
+.my-color1{
+	color: #ff5733;
+}
+.my-color2{
+	color: #98ccd3;
+}
+.my-color3{
+	color: red;
+}
+.my-color4{
+	color: #808080;
+}
+.my-bg1{
+	background:  #ff5733;
+}
+.my-bg2{
+	background: #98ccd3;
+}
+
+
+/*---- top container -----*/
+
+.my-bg{
+	width: 100%;
+	height: 700px;
+	background: url(../images/hero_bg_1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+.bg-flim{
+	width: 100%!important;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.4);
+}
+
+.inner-col{
+	width: 60%;
+	height: 250px;
+	border: none;
+	margin-top: 80px;
+
+}
+.main-text{
+	font-size: 80px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.main-text-p{
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+
+.hover-effect{
+	height: 120px;
+	background: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+	cursor: pointer;
+}
+.hover-effect:hover{
+	background: #fff;
+	position: relative;
+	top: -5px;
+	transition: 1s;
+}
+.icon-col-1{
+	width: 30%;
+	height: 100%;
+	float: left;
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	line-height: 80px;
+	border:none;
+}
+.hover-effect:hover >.icon-col-1{
+	color: #98ccd3;
+	transition: 1s;
+}
+
+.Interior{
+	color: #98ccd3;
+	line-height: 40px; 
+}
+.Lorem{
+	color:rgba(255, 255, 255, 0.4);
+}
+
+.hover-effect:hover >.Interior{
+	color: #000000;
+	transition: 1s;
+}
+
+.hover-effect:hover >.Lorem{
+	color: grey;
+	transition: 1s;
+}
+@media screen and (max-width: 768px) and (min-width: 0px) {
+	.my-bg{
+	width: 100%;
+	height: 900px;
+	background: url(../images/hero_bg_1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.top-contact{
+	display: none;
+
+}
+.mob-screen{
+	float: right;
+	margin-left: 20px;
+}
+
+.inner-col{
+	width: 100%;
+	height: 170px;
+	border: none;
+	margin-top: 80px;
+
+}
+.main-text{
+	font-size: 48px;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+}
+.main-text-p{
+	font-size: 18px;
+	color: rgba(255, 255, 255, 0.7);
+	text-align: center;
+}
+.hover-effect{
+	margin-bottom: 10px;
+}
+.hover-effect-container{
+	
+	
+}
+}
+
+/*---- top container -----*/
+
+/* my services*/
+.services-box{
+	height:150px;
+	border: none;
+
+}
+.ser-icon{
+	width: 30%;
+	height: 100%;
+	float: left;
+	border: none;
+}
+.ser-icon li{
+	width: 70px;
+	height: 70px;
+	border-radius: 100%;
+	background: #ff5733;
+	text-align: right;
+	line-height: 90px;
+	color: rgba(0, 0, 0, 0.7);
+	font-size: 50px;
+	padding-left: 20px;
+}
+.ser-details{
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+.ser-details li{
+	color: #000000;
+	font-size: 20px;
+	margin-top: 5px;
+
+
+}
+.ser-details p{
+	color: #808080;
+	font-size: 15px;
+	margin-top: 5px;
+	line-height: 25px;
+	
+}
+/* my services*/
+ 
+
+/*testimonials*/
+.my-controler{
+position: absolute;
+top: 102%!important;
+left: 0;
+
+}
+/*testimonials*/
+
+/*pool*/
+.pool-row{
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.pool-box{
+	width: 208px;
+	height: 237px;
+	background:  #fff;
+	border-radius: 5px;
+	cursor: pointer;
+	padding-top: 50px;
+}
+.pool-box i{
+	font-size: 50px;
+	color: #98ccd3;
+
+}
+
+.pool-box:hover{
+	position: relative;
+	top: -10px;
+	transition:1s;
+
+}
+/*pool*/
+
+/*news page*/
+.my-bg-news{
+	width: 100%;
+	height: 700px;
+	background: url(../images/hero_bg_1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+
+	
+}
+
+.blog-num{
+	width: 50%;
+	
+	border: none;
+}
+.social-link{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border: none;
+	text-align: center;
+	line-height: 50px;
+
+}
+.social-link li{
+	float: left;
+	color: #4d4d4d;
+	width: 50px;
+	height: 50px;
+	background: #f2f2f2;
+	border-radius: 100%;
+	
+	font-size: 20px;
+
+}
+
+.social-link li:hover{
+	background: #98ccd3;
+	transition: 1s;
+	color: #fff;
+}
+
+@media screen and (max-width: 768px) and (min-width: 0px) {
+.my-bg-news{
+	width: 100%;
+	height: 500px;
+	background: url(../images/hero_bg_1.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+}
+/*news page*/
+.card-img-top:hover{
+	transform: scale(1.05)!important;
+	overflow: hidden;
+	transition: 1s;
+}
+/*about page*/
+.about-img-text{
+	position: relative;
+	top: -80%;
+	left: 45%;
+	font-size: 100px;
+
+}
+
+.img-hover{
+	width: 100%;
+	height: 100%;
+	background: red;
+	border: solid;
+	position: relative;
+	top: -100%;
+	overflow: hidden;
+	
+
+}
+
+/*about page*/
